@@ -1,6 +1,8 @@
 = shallow
 
-Description goes here.
+A means of decorating a method call with a caching mechanism.  Particularly 
+useful in cases where the method call is EXTREMELY expensive, and rarely 
+changes.
 
 == Note on Patches/Pull Requests
  
