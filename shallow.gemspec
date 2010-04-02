@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{shallow}
-  s.version = "0.0.0"
+  s.version = "0.1.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Jeremy Friesen"]
-  s.date = %q{2010-03-30}
+  s.date = %q{2010-04-01}
   s.description = %q{A gem for creating cached response for expensive method calls}
   s.email = %q{jeremy.n.friesen@gmail.com}
   s.extra_rdoc_files = [
@@ -24,6 +24,7 @@ Gem::Specification.new do |s|
      "Rakefile",
      "VERSION",
      "lib/shallow.rb",
+     "shallow.gemspec",
      "test/helper.rb",
      "test/test_shallow.rb"
   ]

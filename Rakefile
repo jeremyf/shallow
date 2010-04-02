@@ -6,7 +6,7 @@ begin
   Jeweler::Tasks.new do |gem|
     gem.name = "shallow"
     gem.summary = %Q{A gem for creating cached response for expensive method calls}
-    gem.description = %Q{TODO: longer description of your gem}
+    gem.description = %Q{A gem for creating cached response for expensive method calls}
     gem.email = "jeremy.n.friesen@gmail.com"
     gem.homepage = "http://github.com/jeremyf/shallow"
     gem.authors = ["Jeremy Friesen"]
