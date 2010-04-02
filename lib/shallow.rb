@@ -31,26 +31,27 @@ module Shallow
       end
     end
   end
+
   class Cache
     def initialize
-      @cache = {}
+      @data_store = {}
     end
     include Singleton
     def exist?(key)
-      @cache.key?(key)
+      @data_store.key?(key)
     end
     def fetch(key)
-      if @cache.key?(key)
-        @cache.fetch(key)
+      if @data_store.key?(key)
+        @data_store.fetch(key)
       else
-        @cache[key] = yield
+        @data_store[key] = yield
       end
     end
     def delete(key)
-      @cache.delete(key)
+      @data_store.delete(key)
     end
     def read(key)
-      @cache.fetch(key)
+      @data_store.fetch(key)
     end
   end
 
